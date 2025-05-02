@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      الرائد ديجيتال - تطوير المواقع الإلكترونية في المملكة العربية السعودية
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- الهيدر والقائمة -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">الرائد <span>ديجيتال</span></div>
+        <span class="mobile-menu-btn" onclick="toggleMenu()">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </span>
+        <nav id="mainNav">
+          <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#packages">باقاتنا</a></li>
+            <li><a href="#features">مميزاتنا</a></li>
+            <li><a href="#faq">الأسئلة الشائعة</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- قسم البطل (Hero) -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content" data-aos="fade-up" data-aos-delay="100">
+          <h1>
+            تصميم وتطوير مواقع إلكترونية احترافية في المملكة العربية السعودية
+          </h1>
+          <p>
+            نقدم خدمات متكاملة في تصميم وتطوير المواقع الإلكترونية وصفحات الهبوط
+            المتميزة التي تساعد عملك على النمو وتحقيق أهدافك التسويقية
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="cta-button">طلب خدمة</a>
+            <a href="#services" class="secondary-button">استكشف خدماتنا</a>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+          <img
+            src="img2.png"
+            alt="تصميم مواقع إلكترونية احترافية"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading fade-in-up" data-aos="fade-up">
+          <h2>خدماتنا</h2>
+          <p>
+            نقدم مجموعة متكاملة من الخدمات الرقمية لمساعدة عملك على النمو
+            والازدهار في العالم الرقمي
+          </p>
+        </div>
+        <div class="services-grid" data-aos="fade-up" data-aos-delay="150">
+          <div class="service-card">
+            <div class="service-icon">🌐</div>
+            <h3>تصميم وتطوير المواقع الإلكترونية</h3>
+            <p>
+              نقوم بتصميم وتطوير مواقع إلكترونية احترافية متوافقة مع جميع
+              الأجهزة وتلبي احتياجات عملك الخاصة
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>تصميم صفحات الهبوط</h3>
+            <p>
+              صفحات هبوط مخصصة تحول الزوار إلى عملاء وتزيد من معدلات التحويل
+              لحملاتك التسويقية
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🛒</div>
+            <h3>متاجر إلكترونية</h3>
+            <p>
+              تطوير متاجر إلكترونية متكاملة تتيح لك بيع منتجاتك وخدماتك بسهولة
+              وأمان
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🔍</div>
+            <h3>تحسين محركات البحث (SEO)</h3>
+            <p>
+              تحسين ظهور موقعك الإلكتروني في نتائج البحث وزيادة الزيارات العضوية
+              من العملاء المهتمين
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>تصميم هوية بصرية</h3>
+            <p>
+              تصميم هوية بصرية متكاملة تعكس قيم علامتك التجارية وتميزها عن
+              المنافسين
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>تطوير تطبيقات الويب</h3>
+            <p>
+              تطوير تطبيقات ويب تفاعلية ومخصصة لتلبية احتياجات عملك وتحسين تجربة
+              المستخدم
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الباقات -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="section-heading">
+          <h2>باقاتنا</h2>
+          <p>
+            اختر الباقة المناسبة لاحتياجات عملك من بين مجموعة متنوعة من الباقات
+            المميزة
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🚀</div>
+            <h3>الباقة الأساسية</h3>
+            <p><strong>2,499 ريال</strong></p>
+            <ul
+              style="
+                text-align: right;
+                margin: 20px 0;
+                list-style-type: disc;
+                padding-right: 20px;
+              "
+            >
+              <li>تصميم صفحة هبوط احترافية</li>
+              <li>تصميم متوافق مع الجوال</li>
+              <li>دومين مجاني لمدة سنة</li>
+              <li>استضافة مجانية لمدة سنة</li>
+              <li>نموذج تواصل</li>
+              <li>معاينة مباشرة للتعديلات</li>
+              <li>التسليم خلال 5 أيام عمل</li>
+            </ul>
+            <a
+              href="https://wa.me/966555555555"
+              class="cta-button"
+              style="display: block; text-align: center"
+              >طلب الباقة عبر واتساب</a
+            >
+          </div>
+
+          <div
+            class="service-card"
+            style="border: 2px solid #006d77; position: relative"
+          >
+            <div
+              style="
+                position: absolute;
+                top: -15px;
+                right: 50%;
+                transform: translateX(50%);
+                background: #006d77;
+                color: white;
+                padding: 5px 15px;
+                border-radius: 20px;
+                font-weight: bold;
+              "
+            >
+              الأكثر طلباً
+            </div>
+            <div class="service-icon">⭐</div>
+            <h3>الباقة الاحترافية</h3>
+            <p><strong>4,999 ريال</strong></p>
+            <ul
+              style="
+                text-align: right;
+                margin: 20px 0;
+                list-style-type: disc;
+                padding-right: 20px;
+              "
+            >
+              <li>موقع إلكتروني كامل (حتى 5 صفحات)</li>
+              <li>تصميم متوافق مع الجوال</li>
+              <li>دومين مجاني لمدة سنة</li>
+              <li>استضافة مجانية لمدة سنة</li>
+              <li>نموذج تواصل متقدم</li>
+              <li>تحسين محركات البحث الأساسي</li>
+              <li>ربط بمواقع التواصل الاجتماعي</li>
+              <li>التسليم خلال 10 أيام عمل</li>
+            </ul>
+            <a
+              href="https://wa.me/966555555555"
+              class="cta-button"
+              style="display: block; text-align: center"
+              >طلب الباقة عبر واتساب</a
+            >
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">👑</div>
+            <h3>الباقة المتكاملة</h3>
+            <p><strong>9,999 ريال</strong></p>
+            <ul
+              style="
+                text-align: right;
+                margin: 20px 0;
+                list-style-type: disc;
+                padding-right: 20px;
+              "
+            >
+              <li>موقع إلكتروني كامل (حتى 10 صفحات)</li>
+              <li>تصميم متجر إلكتروني (اختياري)</li>
+              <li>لوحة تحكم متكاملة</li>
+              <li>دومين مجاني لمدتين</li>
+              <li>استضافة مجانية لمدتين</li>
+              <li>تحسين محركات البحث الاحترافي</li>
+              <li>تكامل مع أنظمة الدفع المحلية</li>
+              <li>دعم فني لمدة سنة كاملة</li>
+              <li>التسليم خلال 15 يوم عمل</li>
+            </ul>
+            <a
+              href="https://wa.me/966555555555"
+              class="cta-button"
+              style="display: block; text-align: center"
+              >طلب الباقة عبر واتساب</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم المميزات -->
+    <!-- قسم المميزات -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <h2>لماذا تختار الرائد ديجيتال؟</h2>
+          <p>
+            نحن نقدم خدمات احترافية بمعايير عالمية وبلمسة محلية تناسب السوق
+            السعودي
+          </p>
+        </div>
+        <div class="features-grid" data-aos="fade-up" data-aos-delay="150">
+          <div class="feature-card">
+            <div class="icon">🛠️</div>
+            <div class="content">
+              <h3>خبرة أكثر من 10 سنوات</h3>
+              <p>
+                فريق عمل محترف بخبرة طويلة في مجال تصميم وتطوير المواقع
+                الإلكترونية
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🚀</div>
+            <div class="content">
+              <h3>سرعة في التنفيذ</h3>
+              <p>التزام تام بمواعيد التسليم مع الحفاظ على أعلى معايير الجودة</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="icon">💼</div>
+            <div class="content">
+              <h3>فهم احتياجات السوق المحلي</h3>
+              <p>
+                نصمم مواقع تناسب ثقافة وتوقعات العملاء في المملكة العربية
+                السعودية
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🔄</div>
+            <div class="content">
+              <h3>دعم فني مستمر</h3>
+              <p>
+                نقدم دعم فني على مدار الساعة لضمان استمرارية عمل موقعك بكفاءة
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <section
+      class="faq"
+      id="faq"
+      style="padding: 80px 0; background-color: white"
+    >
+      <div class="container">
+        <div class="section-heading">
+          <h2>الأسئلة الشائعة</h2>
+          <p>إليك إجابات على أكثر الأسئلة التي يطرحها عملاؤنا</p>
+        </div>
+        <div style="max-width: 800px; margin: 40px auto">
+          <div
+            style="
+              margin-bottom: 20px;
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+            "
+          >
+            <h3
+              style="
+                color: #006d77;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 600;
+              "
+            >
+              كم تستغرق عملية تصميم وتطوير الموقع الإلكتروني؟
+            </h3>
+            <p>
+              تختلف المدة حسب حجم وتعقيد المشروع، ولكن بشكل عام تتراوح من 5 أيام
+              للصفحات البسيطة إلى 15 يوم عمل للمواقع المتكاملة. نحن نلتزم دائماً
+              بجدول زمني نتفق عليه مسبقاً.
+            </p>
+          </div>
+          <div
+            style="
+              margin-bottom: 20px;
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+            "
+          >
+            <h3
+              style="
+                color: #006d77;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 600;
+              "
+            >
+              هل تقدمون خدمات الصيانة بعد تسليم المشروع؟
+            </h3>
+            <p>
+              نعم، نقدم خدمات الصيانة والدعم الفني لجميع مشاريعنا. كما نوفر
+              باقات دعم سنوية بأسعار تنافسية تشمل التحديثات والتطويرات
+              المستقبلية.
+            </p>
+          </div>
+          <div
+            style="
+              margin-bottom: 20px;
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+            "
+          >
+            <h3
+              style="
+                color: #006d77;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 600;
+              "
+            >
+              هل يمكنني طلب تعديلات بعد تسليم المشروع؟
+            </h3>
+            <p>
+              بالتأكيد، نقدم تعديلات مجانية خلال الشهر الأول من تسليم المشروع
+              ضمن نطاق العمل المتفق عليه. التعديلات الإضافية أو التغييرات
+              الجذرية قد تخضع لرسوم إضافية.
+            </p>
+          </div>
+          <div
+            style="
+              margin-bottom: 20px;
+              background: #f9f9f9;
+              padding: 20px;
+              border-radius: 10px;
+            "
+          >
+            <h3
+              style="
+                color: #006d77;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 600;
+              "
+            >
+              هل مواقعكم متوافقة مع محركات البحث؟
+            </h3>
+            <p>
+              نعم، جميع مواقعنا مصممة وفق أحدث معايير تحسين محركات البحث (SEO).
+              كما نقدم خدمات تحسين محركات البحث المتقدمة ضمن الباقات المتكاملة.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الاتصال (واجهة محسنة) -->
+      <section class="contact" id="contact">
+      <div class="container">
+        <div
+          class="section-heading fade-in-up"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <h2>تواصل معنا</h2>
+          <p>
+            نسعد بتواصلكم معنا في أي وقت. فريقنا جاهز للرد على استفساراتكم
+            وتقديم الدعم اللازم لمشروعكم.
+          </p>
+        </div>
+        <div class="contact-grid" data-aos="fade-up" data-aos-delay="200">
+          <!-- معلومات الاتصال -->
+          <div class="contact-info-card">
+            <h3>وسائل التواصل</h3>
+            <div class="contact-methods">
+              <a
+                href="https://wa.me/966555555555"
+                class="contact-method whatsapp"
+              >
+                <div class="icon"><i class="bx bxl-whatsapp"></i></div>
+                <div class="details">
+                  <h4>واتساب</h4>
+                  <p>تواصل معنا مباشرة</p>
+                </div>
+              </a>
+              <div class="contact-method">
+                <div class="icon"><i class="bx bx-phone"></i></div>
+                <div class="details">
+                  <h4>الهاتف</h4>
+                  <p><a href="tel:+966555555555">+966 55 555 5555</a></p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="icon"><i class="bx bx-envelope"></i></div>
+                <div class="details">
+                  <h4>البريد الإلكتروني</h4>
+                  <p><a href="mailto:info@example.com">info@example.com</a></p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="icon"><i class="bx bx-map"></i></div>
+                <div class="details">
+                  <h4>العنوان</h4>
+                  <p>المملكة العربية السعودية، الرياض</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- نموذج الاتصال -->
+          <div class="contact-form-card">
+            <h3>أرسل رسالة</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="الاسم الكامل" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="البريد الإلكتروني" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="رقم الجوال" required />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="رسالتك" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-button">إرسال الرسالة</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الفوتر -->
+     <footer data-aos="fade-up" data-aos-delay="100">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h3>الرائد ديجيتال</h3>
+        <p>
+          نحن شركة سعودية متخصصة في تصميم وتطوير المواقع الإلكترونية والحلول
+          الرقمية، نساعدك على النجاح في العالم الرقمي.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h3>روابط سريعة</h3>
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#services">خدماتنا</a></li>
+          <li><a href="#packages">باقاتنا</a></li>
+          <li><a href="#features">مميزاتنا</a></li>
+          <li><a href="#faq">الأسئلة الشائعة</a></li>
+          <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>تواصل معنا</h3>
+        <ul>
+          <li>
+            <i class="bx bx-phone"></i>
+            <a href="tel:+966555555555">+966 55 555 5555</a>
+          </li>
+          <li>
+            <i class="bx bx-envelope"></i>
+            <a href="mailto:info@alraed-digital.com">info@alraed-digital.com</a>
+          </li>
+          <li>
+            <i class="bx bx-map"></i>
+            الرياض، المملكة العربية السعودية
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://twitter.com" target="_blank" title="تويتر">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" title="إنستغرام">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank" title="فيسبوك">
+            <i class="bx bxl-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      جميع الحقوق محفوظة © 2024 الرائد ديجيتال - Alraed Digital
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 800, easing: "ease-out-quart", once: true });
+
+      function toggleMenu() {
+        const nav = document.getElementById("mainNav");
+        const menuBtn = document.querySelector(".mobile-menu-btn");
+        nav.classList.toggle("active");
+        menuBtn.classList.toggle("active");
+      }
+
+      // Close menu when clicking outside
+      document.addEventListener("click", function (event) {
+        const nav = document.getElementById("mainNav");
+        const menuBtn = document.querySelector(".mobile-menu-btn");
+        if (!nav.contains(event.target) && !menuBtn.contains(event.target)) {
+          nav.classList.remove("active");
+          menuBtn.classList.remove("active");
+        }
+      });
+
+      // Close menu when clicking a link
+      document.querySelectorAll("nav a").forEach((link) => {
+        link.addEventListener("click", () => {
+          const nav = document.getElementById("mainNav");
+          const menuBtn = document.querySelector(".mobile-menu-btn");
+          nav.classList.remove("active");
+          menuBtn.classList.remove("active");
+        });
+      });
+
+      // Close menu on scroll
+      window.addEventListener("scroll", () => {
+        const nav = document.getElementById("mainNav");
+        const menuBtn = document.querySelector(".mobile-menu-btn");
+        if (nav.classList.contains("active")) {
+          nav.classList.remove("active");
+          menuBtn.classList.remove("active");
+        }
+      });
+    </script>
+  </body>
+</html>
